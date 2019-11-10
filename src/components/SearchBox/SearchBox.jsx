@@ -16,10 +16,12 @@ const SearchBox = ({ placeholder, onSubmit }) => {
   };
 
   return (
-    <form className="SearchBox d-flex" onSubmit={handleSubmit}>
+    
+    <form id="search" className="SearchBox d-flex" onSubmit={handleSubmit} aria-label="serachbox">
       <input
         name="search"
         type="text"
+        aria-label="serachbox"
         value={text}
         placeholder={placeholder || "Let's search a movie (eg Girls)"}
         onChange={handleChange}
