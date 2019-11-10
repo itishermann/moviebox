@@ -1,0 +1,20 @@
+.Home {
+  color: rgba(0, 0, 0, 0.54);
+  padding: 16px 15px 30px 15px;
+}
+
+.Home .MovieCard {
+  margin: 16px;
+}
+
+.Home .LinearProgress {
+  position: fixed;
+  top: -2px;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+}
+
+.Home .LinearProgress > div {
+  background-color: #ec6159;
+}

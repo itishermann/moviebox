@@ -1,0 +1,21 @@
+.SelectBox {
+  width: 180px;
+}
+
+.SelectBox .MuiOutlinedInput-input {
+  padding: 7.5px 14px;
+}
+
+.SelectBox,
+.SelectBox .MuiOutlinedInput-root {
+  height: 34px;
+}
+
+.SelectBox .MuiSelect-icon {
+  margin-right: 5px;
+}
+
+.SelectBox .MuiOutlinedInput-notchedOutline,
+.SelectBox .MuiSelect-select:focus {
+  border-radius: 17px;
+}

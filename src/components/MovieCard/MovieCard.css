@@ -1,0 +1,28 @@
+.MovieCard {
+    cursor: pointer;
+    width: 245px;
+    border-radius: 10px !important;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.2);
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.MovieCard:hover {
+    transform: scale(1.1);
+}
+
+.MovieCard img {
+    border-radius: 10px;
+    width: calc(100% - 20px);
+    height: 200px;
+    margin: 10px;
+}
+
+.MovieCard label {
+    text-align: center;
+    font-weight: 600;
+    font-size: 13px;
+}

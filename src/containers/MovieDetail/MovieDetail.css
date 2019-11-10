@@ -1,0 +1,56 @@
+.MovieDetail {
+    padding: 16px 15px 30px 15px;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.MovieDetail .cover {
+    width: 300px;
+    height: 300px;
+    margin-right: 32px;
+    border-radius: 10px;
+}
+
+.MovieDetail label {
+    font-weight: 500;
+}
+
+.MovieDetail .info {
+    max-width: 760px;
+}
+
+.InfoPannel {
+    padding: 16px 15px 30px 15px;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.InfoData {
+    display: block;
+}
+
+label {
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.panel {
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+    border-radius: 10px !important;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.2);
+}
+
+.panel:hover {
+    transform: scale(1.04);
+}
+
+.button:hover {
+    color: #ec6159;
+}
+
+@media screen and (max-width: 768px) {
+    label {
+        margin-right: 12px;
+    }
+}

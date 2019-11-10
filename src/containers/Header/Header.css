@@ -1,0 +1,15 @@
+.Header {
+  background: white;
+  padding: 16px 20px;
+}
+
+.Header a, .Header a:hover {
+  font-size: 30px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.54);
+  text-decoration: none;
+}
+
+.Header a span {
+  color: red;
+}
