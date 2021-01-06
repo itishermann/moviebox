@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ac74dbd1ba40b60f27f71da74fc2462d",
+    "revision": "7da7fd4a1f60fea716fc9a8c860582ec",
     "url": "/moviebox/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/moviebox/static/css/2.40f45410.chunk.css"
   },
   {
-    "revision": "556d770fc3a29702f795",
+    "revision": "2b084ef53c4798173954",
     "url": "/moviebox/static/css/main.d3abea9b.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/moviebox/static/js/2.312415f5.chunk.js"
   },
   {
-    "revision": "556d770fc3a29702f795",
-    "url": "/moviebox/static/js/main.4a86fb88.chunk.js"
+    "revision": "2b084ef53c4798173954",
+    "url": "/moviebox/static/js/main.30a09871.chunk.js"
   },
   {
     "revision": "9ee0cb323e1dc6021bb8",
