@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/moviebox/static/css/main.d3abea9b.chunk.css",
-    "main.js": "/moviebox/static/js/main.7a164fde.chunk.js",
-    "main.js.map": "/moviebox/static/js/main.7a164fde.chunk.js.map",
+    "main.js": "/moviebox/static/js/main.c2d268b2.chunk.js",
+    "main.js.map": "/moviebox/static/js/main.c2d268b2.chunk.js.map",
     "runtime-main.js": "/moviebox/static/js/runtime-main.bc4392b5.js",
     "runtime-main.js.map": "/moviebox/static/js/runtime-main.bc4392b5.js.map",
     "static/css/2.40f45410.chunk.css": "/moviebox/static/css/2.40f45410.chunk.css",
     "static/js/2.312415f5.chunk.js": "/moviebox/static/js/2.312415f5.chunk.js",
     "static/js/2.312415f5.chunk.js.map": "/moviebox/static/js/2.312415f5.chunk.js.map",
     "index.html": "/moviebox/index.html",
-    "precache-manifest.525497f7a2ff044927c78a4887947adc.js": "/moviebox/precache-manifest.525497f7a2ff044927c78a4887947adc.js",
+    "precache-manifest.765a71499560a77ae0508089d9f881cb.js": "/moviebox/precache-manifest.765a71499560a77ae0508089d9f881cb.js",
     "service-worker.js": "/moviebox/service-worker.js",
     "static/css/2.40f45410.chunk.css.map": "/moviebox/static/css/2.40f45410.chunk.css.map",
     "static/css/main.d3abea9b.chunk.css.map": "/moviebox/static/css/main.d3abea9b.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.40f45410.chunk.css",
     "static/js/2.312415f5.chunk.js",
     "static/css/main.d3abea9b.chunk.css",
-    "static/js/main.7a164fde.chunk.js"
+    "static/js/main.c2d268b2.chunk.js"
   ]
 }
