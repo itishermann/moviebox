@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "69b55d8b25c48142ef7655a81623cd81",
+    "revision": "46990afb959470695dc0305b19741369",
     "url": "/moviebox/index.html"
   },
   {
