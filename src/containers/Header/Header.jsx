@@ -9,14 +9,14 @@ import "./Header.css";
 const Header = ({ searchMovie }) => {
   const history = useHistory();
   const handleSearchSubmit = async searchText => {
-    await history.push(`/`);
+    await history.push(`${process.env.PUBLIC_URL}/`);
     await searchMovie(searchText);
   }
 
   return (
     <header className="Header">
       <div className="d-flex flex-wrap align-items-center">
-        <Link to="/" className="mr-3">
+        <Link to={`${process.env.PUBLIC_URL}/`} className="mr-3">
           Movie<span>Box</span>
         </Link>
           <div className="ml-md-auto mt-2 mt-md-0">

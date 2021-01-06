@@ -12,14 +12,15 @@ import Header from "../Header";
 import MovieDetail from "../MovieDetail";
 
 const App = () => {
+  console.log(process.env)
   return (
-    <Router>
+    <Router basename={'/moviebox'}>
       <Header />
       <main className="main-container container-fluid px-0">
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/movies/:id" component={MovieDetail} />
-          <Route path="/error" component={Page404} />
+          <Route exact path={`${process.env.PUBLIC_URL}/`} component={Home} />
+          <Route path={`${process.env.PUBLIC_URL}/movies/:id`} component={MovieDetail} />
+          <Route path={`${process.env.PUBLIC_URL}/error`} component={Page404} />
           <Redirect from="*" to="/error" />
         </Switch>
       </main>

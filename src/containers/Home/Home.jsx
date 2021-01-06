@@ -23,7 +23,7 @@ function Home({ movies, status, searchText }) {
                 <MovieCard
                   {...movie}
                   key={index}
-                  onClick={() => history.push(`/movies/${movie.id}`)}
+                  onClick={() => history.push(`${process.env.PUBLIC_URL}/movies/${movie.id}`)}
                 />
               ))}
             {!movies&&(<p>Let's try to search something</p>)}

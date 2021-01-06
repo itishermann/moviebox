@@ -18,7 +18,7 @@ const Page404 = () => {
               <div className="text-center py-3 error-text text-secondary">
                 Sorry, we couldn't find the page you were looking for !
               </div>
-              <Link className="text-danger" to="/">Go home</Link>
+              <Link className="text-danger" to={`${process.env.PUBLIC_URL}/`}>Go home</Link>
             </div>
           </div>
         </div>
