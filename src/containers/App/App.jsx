@@ -12,7 +12,6 @@ import Header from "../Header";
 import MovieDetail from "../MovieDetail";
 
 const App = () => {
-  console.log(process.env)
   return (
     <Router basename={'/moviebox'}>
       <Header />

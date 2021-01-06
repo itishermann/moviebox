@@ -89,7 +89,6 @@ const MovieDetail = ({ movies, match }) => {
   const movie = movies.find(
     m => m.id.toString() === match.params.id.toString()
   );
-  console.log(movie);
   const { name, rating, date, summary, url, image } = movie;
 
   const truncatedURL = url
